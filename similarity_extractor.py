@@ -1,6 +1,6 @@
 from models.i3d_model import InceptionI3d
 
-from augmentation.augment import train_transform, valid_transform, unnorm
+from augmentation.augment import train_transform, valid_transform
 
 import pickle
 from PIL import Image
