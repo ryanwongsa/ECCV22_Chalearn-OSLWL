@@ -2,7 +2,7 @@ import pickle
 from PIL import Image
 import torch
 import pandas as pd
-from augmentation.augment import train_transform, valid_transform, unnorm
+from augmentation.augment import train_transform, valid_transform
 import lmdb
 import cv2
 import numpy as np
